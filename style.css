@@ -1,0 +1,454 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body {
+  position: relative;
+  overflow-x: hidden;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/* --------------- COMENZAMOS ------------- */
+
+@font-face {
+  font-family: "ZapfHumanist601BT-Roman";
+  src: url("fonts/ZapfHumanist601BT-Roman.otf");
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-Italic";
+  src: url("fonts/Poppins-Italic.ttf");
+}
+
+nav {
+  text-align: center;
+}
+
+img {
+  -webkit-transform: scale(0.5);
+  /* Saf3.1+, Chrome */
+  -moz-transform: scale(0.5);
+  /* FF3.5+ */
+  -ms-transform: scale(0.5);
+  /* IE9 */
+  -o-transform: scale(0.5);
+  /* Opera 10.5+ */
+  transform: scale(0.5);
+}
+
+.season22,
+.caracteristicas,
+.fotos,
+.secciontexto {
+  margin-bottom: 100px;
+}
+
+.footer {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.intro2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.col2-intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.frase-andre-corte {
+  display: block;
+}
+
+article {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'ZapfHumanist601BT-Roman';
+  font-size: 85px;
+  letter-spacing: 10px;
+}
+
+p {
+  font-family: 'Poppins-Regular';
+  font-size: 12px;
+  line-height: 240%;
+}
+
+#textoIntro {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+h3 {
+  font-family: 'Poppins-Regular';
+  font-size: 9px;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-family: 'ZapfHumanist601BT-Roman';
+  font-size: 40px !important;
+  letter-spacing: -1px;
+}
+
+h4 {
+  font-family: 'ZapfHumanist601BT-Roman';
+  font-size: 24px !important;
+  letter-spacing: -1px;
+}
+
+.rebelde {
+  -webkit-transform: scale(1);
+  /* Saf3.1+, Chrome */
+  -moz-transform: scale(1);
+  /* FF3.5+ */
+  -ms-transform: scale(1);
+  /* IE9 */
+  -o-transform: scale(1);
+  /* Opera 10.5+ */
+  transform: scale(1);
+  width: 100%;
+}
+
+.ella {
+  max-width: 300px;
+  margin-right: 50px;
+}
+
+.h2-intro {
+  margin-bottom: 10px;
+}
+
+.p-intro {
+  margin-bottom: 10px;
+}
+
+.fotos {
+  text-align: center;
+  max-width: 950px;
+}
+
+.secciontexto {
+  max-width: 800px;
+}
+
+section {
+  text-align: center;
+}
+
+.boton {
+  cursor: pointer;
+  cursor: hand;
+  margin-top: 10px;
+
+}
+
+.boton:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.boton img {
+  width: 160px;
+}
+
+.corte-texto-final {
+  display: block;
+}
+
+.logofooter {
+  font-family: 'ZapfHumanist601BT-Roman';
+  font-size: 40px !important;
+  letter-spacing: -1px;
+}
+
+.footer {
+  background-color: #1F1F1F;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 0;
+}
+
+.footertexto {
+  color: #FFFFFF;
+  font-family: 'Poppins-Italic';
+}
+
+.footertexto2 {
+  color: #757575;
+  font-family: 'Poppins-Italic';
+}
+
+.footerlogos {
+  text-align: center;
+}
+
+.andrea-texto {
+  margin-top: 20px;
+}
+
+.logosidonia {
+  text-align: center;
+  width: 100%;
+  width: 250px;
+  height: 59px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.unoporotro {
+  width: 242px;
+  height: 58px;
+}
+
+.logofooter {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 27px !important;
+  letter-spacing: 3px;
+}
+
+.video {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 600px;
+  background-color: #FFFFFF;
+}
+
+video {
+  width: 100%;
+  max-width: 600px;
+  outline: none
+}
+
+video::-webkit-media-controls-panel {
+  background-image: none !important;
+  filter: brightness(0.4);
+}
+
+a {
+  color: inherit;
+}
+
+@media screen and (max-width: 500px)
+
+/* Mobile */
+  {
+
+  .unoporotro {
+    width: 80%;
+  }
+
+  .logosidonia {
+    width: 80%;
+  }
+
+  p {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .h1 {
+    font-size: 48px;
+  }
+
+  .intro2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+
+  .fila-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .text-intro {
+    margin: 0;
+  }
+
+  .img-intro {
+    margin-right: 0;
+    margin-top: 20px;
+  }
+
+  .season22,
+  .caracteristicas,
+  .fotos,
+  .secciontexto {
+    margin-bottom: 100px;
+  }
+
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+  .foto-2 {
+    margin: 10px 0px;
+  }
+
+  .frase-andre-corte {
+    display: inline;
+  }
+
+  .corte-texto-final {
+    display: inline;
+  }
+
+}
