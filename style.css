@@ -174,6 +174,12 @@ img {
   transform: scale(0.5);
 }
 
+.coco-chanel {
+  margin-top: 10px;
+  font-family: 'Poppins-Regular';
+  font-size: 12px;
+}
+
 .season22,
 .caracteristicas,
 .fotos,
@@ -324,6 +330,7 @@ section {
 }
 
 .footertexto2 {
+  margin-top: 15px;
   color: #757575;
   font-family: 'Poppins-Italic';
 }
